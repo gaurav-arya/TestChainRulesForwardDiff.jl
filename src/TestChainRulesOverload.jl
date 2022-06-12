@@ -1,5 +1,7 @@
 module TestChainRulesOverload
 
-# Write your package code here.
+export Dual, partial, primal
+
+include("code.jl")
 
 end
